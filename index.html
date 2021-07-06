@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevRocks</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+    <!--intro-->
+    <section class="section" id="intro">
+        <div class="intro">
+            <div class="container">
+                <div class="intro_img">
+                    <img class="rotate" src="./assets/logo_white.svg" alt="">
+                    <p class="title_rotate">WDR</p>
+                </div>
+                <a href="#header" class="window_down"><img src="./assets/intro/chevron-down.svg" alt="" class="arrow"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Header-->
+    <header id="header" class="absolute">
+        <div class="container">
+            <nav class="nav_bar">
+                <div class="nav_logo">
+                   <a href="#intro"><img src="./assets/logo(2).svg"  alt=""></a> 
+                </div>
+                <div class="nav_links">
+                    <a class="nav_link"  href="#">Блог</a>
+                    <a class="nav_link"  href="#">Портфолио</a>
+                    <a class="nav_link"  href="#">Развлечения</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--form-->
+    <section class="section section_form" id="section_form">
+        <h1 class="section_title">творческая точность</h1>
+        <div class="container">
+            <p class="section_text">Веб-разработка – то самое место, где творческое мышление тесно соприкасается с техническими навыками кодинга. 
+                Лучше всего с этой работой справится только тот, для кого это не работа, а нечто большее – то, что приносит удовольствие 
+                во время создания и эйфорию в момент реализации. Свяжитесь с нами и получите лучший проект для Ваших нужд.</p>
+        
+            <form action="">
+
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="WebDevRocks">
+                <input type="hidden" name="admin_email" value="animaker@inbox.ru">
+                <input type="hidden" name="form_subject" value="Form Subject">
+                <!-- END Hidden Required Fields -->
+
+                <input class="form" name="Имя" type="text" placeholder="Ваше имя">
+                <input class="form" name="email" type="email" placeholder="Ваш email">
+                <textarea class="form" name="Сообщение" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+                <input type="submit" value="SEND" class="form_btn nav_link">Отправить</input>
+            </form>
+        </div>
+    </section>
+
+    <!--development-->
+    <section class="section section--gray section_development">
+        <h1 class="section_title section_title--gray">этапы разработки проекта</h1>
+        <div class="container">
+            <div class="development_wrapper">
+                <div class="development_info">
+                    <div class="development_inner" id="btn1">
+                        <div class="development_icon">
+                            <img src="./assets/Icons/01.svg" alt="" class="dev_ico">
+                        </div>
+                        <div class="development_text">
+                            Создание дизайна
+                        </div>
+                    </div>
+                    <div class="development_inner" id="btn2">
+                        <div class="development_icon">
+                            <img src="./assets/Icons/02.svg" alt="" class="dev_ico">
+                        </div>
+                        <div class="development_text">
+                            Верстка сайта на HTML и CSS
+                        </div>
+                    </div>
+                    <div class="development_inner" id="btn3">
+                        <div class="development_icon">
+                            <img src="./assets/Icons/03.svg" alt="" class="dev_ico">
+                        </div>
+                        <div class="development_text">
+                            Добавление интерактивности с помощью JS
+                        </div>
+                    </div>
+                    <div class="development_inner" id="btn4">
+                        <div class="development_icon">
+                            <img src="./assets/Icons/04.svg" alt="" class="dev_ico">
+                        </div>
+                        <div class="development_text">
+                            Подключение бэкенда
+                        </div>
+                    </div>
+                    <div class="development_inner" id="btn5">
+                        <div class="development_icon">
+                            <img src="./assets/Icons/05.svg" alt="" class="dev_ico">
+                        </div>
+                        <div class="development_text">
+                            Настройка базы данных Ваших пользователей
+                        </div>
+                    </div>
+                </div>            
+                <div class="development_img">
+                    <img class="development_photo" src="./assets/development.jpg" alt="">
+                    <div class="development_photo mod dev_info" id="img1">
+                        <p>Создание макета сайта в графическом редакторе с учетом всех Ваших предпочтений.</p>
+                        <div class="info_flex">
+                            <img src="./assets/development/design.png" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="development_photo mod dev_info" id="img2">
+                        <p>Преобразование макета в полноценную веб-страницу. Вся работа производится вручную для наибольшей гибкости и лучшего результата.</p>
+                        <div class="info_flex">
+                            <img src="./assets/development/first.png" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="development_photo mod dev_info" id="img3">
+                        <p>Появляющиеся сообщения в данном окошке и эти часы лишь малая часть возможностей JavaScript. Внизу страницы Вы сможете в этом убедиться.</p>
+                        <div class="info_flex">
+                            <div id="digital-clock"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="development_photo mod dev_info" id="img4">
+                        <p>Проектирование структуры веб-ресурса, обеспечение удобства пользования ресурсом для пользователей.</p>
+                        <div class="info_flex">
+                            <img src="./assets/development/design.png" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="development_photo mod dev_info" id="img5">
+                        <p>Проектирование структуры веб-ресурса, обеспечение удобства пользования ресурсом для пользователей.</p>
+                        <div class="info_flex">
+                            <img src="./assets/development/design.png" alt="">
+                            
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>        
+    </section>
+    
+    
+    <!--blog-->
+
+    <section class="section">
+        <h1 class="section_title">Блог</h1>
+        <div class="container">
+            <p class="section_text">Идея вести блог возникла с целью закрепления теоритических знаний о веб-разработке. Для меня это своего рода конспект, который я дополняю своими мыслями и рассуждениями. Возможно, Вам также будет интересно окунуться в мир веб-разработки.</p>
+            <div class="blog_wrapper">
+                <div class="blog_inner">
+                    <div class="blog_title">CSS. Flex</div>
+                    <div class="blog_text">Свойство CSS flex - это сокращённое свойство, определяющее способность гибкого элемента растягиваться или сжиматься для заполнения собой доступного свободного пространства.</div>
+                </div>
+                <div class="blog_inner">
+                    <div class="blog_title">CSS. Flex</div>
+                    <div class="blog_text">Свойство CSS flex - это сокращённое свойство, определяющее способность гибкого элемента растягиваться или сжиматься для заполнения собой доступного свободного пространства.</div>
+                </div>
+            </div>
+            <button class="form_btn nav_link">Читать блог</button>            
+        </div>        
+    </section>
+
+    <!--portfolio-->
+    <section class="section section--gray section_portfolio">
+        <h1 class="section_title section_title--gray">примеры работ</h1>
+        <div class="portfolio_wrapper">
+            <div class="portfolio_photo">
+                <img src="./assets/activebox.png" alt="" class="portfolio_img">
+            </div>
+            <div class="portfolio_inner">
+                <div class="portfolio_info">
+                    <div class="portfolio_text">
+                        Свойство CSS flex - это сокращённое свойство, определяющее способность гибкого элемента растягиваться или сжиматься для заполнения собой доступного свободного пространства.
+                    </div>                    
+                </div>
+                <div class="portfolio_btn">
+                    <button class="portfolio_button">Смотреть</button>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio_wrapper">            
+            <div class="portfolio_inner">
+                <div class="portfolio_info">
+                    <div class="portfolio_text">
+                        Свойство CSS flex - это сокращённое свойство, определяющее способность гибкого элемента растягиваться или сжиматься для заполнения собой доступного свободного пространства.
+                    </div>                    
+                </div>
+                <div class="portfolio_btn">
+                    <button class="portfolio_button portfolio_button-2">Смотреть</button>
+                </div>
+            </div>
+            <div class="portfolio_photo">
+                <img src="./assets/mogo.png" alt="" class="portfolio_img">
+            </div>
+        </div>
+    </section>
+
+    <!--entertainment-->
+    <section class="section section-entertainment">
+        <h1 class="section_title section-entertainment_title">развлечения</h1>
+        <div class="container">
+            <p class="section-entertainment_text">Отвлекитесь и сыграйте в игры, написанные на HTML, CSS и JavaScript. Несмотря на простоту, данные языки способны и на это!</p>
+        </div>        
+        <div class="portfolio_btn">
+            <a href="./entertainment/snake/index.html"><button class="portfolio_button portfolio_button--entertainment">Играть</button></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container container-footer">
+                <div class="footer_inner">
+                    <div class="footer_inner-logo">
+                        <img src="./assets/footer_logo.svg" alt="" class="footer_logo">
+                    </div>
+                    <div class="footer_inner-contact">
+                        <div class="footer_inner-contact-text">Свяжитесь с нами</div>
+                        <div class="footer_inner-contact-social">
+                            <a href="#" class="social_icon"><img src="./assets/social/fb.svg" alt=""></a>
+                            
+                        </div>
+                        <div class="footer_inner-contact-social">
+                            <a href="#" class="social_icon"><img src="./assets/social/instagram.svg" alt=""></a>
+                        </div>
+                        <div class="footer_inner-contact-social">
+                            <a href="#" class="social_icon"><img src="./assets/social/tweeter.svg" alt=""></a>
+                        </div>
+                        <div class="footer_inner-contact-social">
+                            <a href="#" class="social_icon"><img src="./assets/social/Linkedin.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="footer-copyright_text">Copyright © 2021 WebDevRocks. All Rights Reserved
+                Made by WebDevRocker </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
